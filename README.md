@@ -1,0 +1,1 @@
+# ngx-box-resizer

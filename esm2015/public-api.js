@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of box-resizer
+ */
+export * from './lib/box-resizer.service';
+export * from './lib/box-resizer.directive';
+export * from './lib/box-resizer.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2JveC1yZXNpemVyL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYywyQkFBMkIsQ0FBQztBQUMxQyxjQUFjLDZCQUE2QixDQUFDO0FBQzVDLGNBQWMsMEJBQTBCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIGJveC1yZXNpemVyXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvYm94LXJlc2l6ZXIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9ib3gtcmVzaXplci5kaXJlY3RpdmUnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvYm94LXJlc2l6ZXIubW9kdWxlJztcbiJdfQ==

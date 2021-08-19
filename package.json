@@ -1,0 +1,19 @@
+{
+  "name": "ngx-box-resizer",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.0.9",
+    "@angular/core": "^11.0.9"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/ngx-box-resizer.umd.js",
+  "module": "fesm2015/ngx-box-resizer.js",
+  "es2015": "fesm2015/ngx-box-resizer.js",
+  "esm2015": "esm2015/ngx-box-resizer.js",
+  "fesm2015": "fesm2015/ngx-box-resizer.js",
+  "typings": "ngx-box-resizer.d.ts",
+  "metadata": "ngx-box-resizer.metadata.json",
+  "sideEffects": false
+}

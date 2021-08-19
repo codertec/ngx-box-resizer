@@ -1,0 +1,120 @@
+{
+  "__symbolic": "module",
+  "version": 4,
+  "metadata": {
+    "BoxResizerService": {
+      "__symbolic": "class",
+      "decorators": [
+        {
+          "__symbolic": "call",
+          "expression": {
+            "__symbolic": "reference",
+            "module": "@angular/core",
+            "name": "Injectable",
+            "line": 2,
+            "character": 1
+          },
+          "arguments": [{ "providedIn": "root" }]
+        }
+      ],
+      "members": { "__ctor__": [{ "__symbolic": "constructor" }] },
+      "statics": { "ɵprov": {} }
+    },
+    "boxReSizeInput": { "__symbolic": "interface" },
+    "ResizerDirective": {
+      "__symbolic": "class",
+      "decorators": [
+        {
+          "__symbolic": "call",
+          "expression": {
+            "__symbolic": "reference",
+            "module": "@angular/core",
+            "name": "Directive",
+            "line": 14,
+            "character": 1
+          },
+          "arguments": [{ "selector": "[boxResizer]" }]
+        }
+      ],
+      "members": {
+        "boxReSizeInput": [
+          {
+            "__symbolic": "property",
+            "decorators": [
+              {
+                "__symbolic": "call",
+                "expression": {
+                  "__symbolic": "reference",
+                  "module": "@angular/core",
+                  "name": "Input",
+                  "line": 19,
+                  "character": 3
+                }
+              }
+            ]
+          }
+        ],
+        "__ctor__": [
+          {
+            "__symbolic": "constructor",
+            "parameters": [
+              {
+                "__symbolic": "reference",
+                "module": "@angular/core",
+                "name": "Renderer2",
+                "line": 24,
+                "character": 32
+              },
+              {
+                "__symbolic": "reference",
+                "module": "@angular/core",
+                "name": "ElementRef",
+                "line": 24,
+                "character": 63
+              }
+            ]
+          }
+        ],
+        "captureInputs": [{ "__symbolic": "method" }],
+        "ngOnInit": [{ "__symbolic": "method" }],
+        "onResizeX": [{ "__symbolic": "method" }],
+        "onResizeY": [{ "__symbolic": "method" }],
+        "noSelectCssToogle": [{ "__symbolic": "method" }]
+      }
+    },
+    "BoxResizerModule": {
+      "__symbolic": "class",
+      "decorators": [
+        {
+          "__symbolic": "call",
+          "expression": {
+            "__symbolic": "reference",
+            "module": "@angular/core",
+            "name": "NgModule",
+            "line": 5,
+            "character": 1
+          },
+          "arguments": [
+            {
+              "declarations": [
+                { "__symbolic": "reference", "name": "ResizerDirective" }
+              ],
+              "imports": [],
+              "exports": [
+                { "__symbolic": "reference", "name": "ResizerDirective" }
+              ]
+            }
+          ]
+        }
+      ],
+      "members": {}
+    }
+  },
+  "origins": {
+    "BoxResizerService": "./lib/box-resizer.service",
+    "boxReSizeInput": "./lib/box-resizer.directive",
+    "ResizerDirective": "./lib/box-resizer.directive",
+    "BoxResizerModule": "./lib/box-resizer.module"
+  },
+  "importAs": "ngx-box-resizer"
+}

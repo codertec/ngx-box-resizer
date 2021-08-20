@@ -15,7 +15,7 @@ $ npm install ngx-box-resizer --save
 ##### .module.ts
 
 ```ts
-import { ResizerDirective } from 'box-resizer';
+import { ResizerDirective } from 'ngx-box-resizer';
 ```
 
 ```ts
